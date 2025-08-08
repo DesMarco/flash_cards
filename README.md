@@ -1,31 +1,20 @@
-Flash Cards
-Proyecto sencillo de tarjetas de memoria hecho con JavaScript, HTML y CSS.
-La idea es tener un mazo de cartas con preguntas y respuestas para practicar cualquier tema.
+# Flash Cards – French / English
 
-Funcionalidades
-Pasar a la siguiente tarjeta.
+Aplicación sencilla de tarjetas de memoria hecha en **Python** con **Tkinter**.  
+Sirve para practicar vocabulario en francés e inglés usando un archivo CSV como base de datos.
 
-Ver la respuesta oculta al hacer clic.
+## 📌 Características
+- Interfaz gráfica amigable con Tkinter.
+- Muestra una palabra en francés y, tras unos segundos, revela la traducción en inglés.
+- Permite marcar palabras que quieres seguir estudiando, guardándolas en un archivo `words_to_learn.csv`.
+- Datos cargados desde `french_words.csv` para facilitar la personalización.
 
-Diseño básico pero funcional.
+## 🛠 Tecnologías usadas
+- Python 3
+- Tkinter
+- Pandas
 
-Cómo usarlo
-Clona el repositorio o descarga los archivos.
-
-Abre el index.html en tu navegador.
-
-Empieza a practicar.
-
-Estructura
-bash
-Copiar
-Editar
-/index.html   → estructura de la página
-/style.css    → estilos
-/script.js    → lógica de las tarjetas
-Mejoras futuras
-Añadir opción de barajar las cartas.
-
-Poder añadir nuevas tarjetas desde la interfaz.
-
-Guardar el progreso en localStorage.
+## 🚀 Cómo usarlo
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
